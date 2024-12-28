@@ -1,0 +1,1078 @@
+
+.body{
+    position: absolute;
+    width: 100%;
+    
+    overflow-x: hidden;
+}
+.block1{
+    position: relative;
+    width: 100%;
+    height:50vw;
+    overflow: hidden;
+    background-color: white;
+    
+    
+    overflow: hidden;
+   
+   
+}
+.arrows{
+    position: absolute;
+    
+    
+}
+.morning{
+    width: auto;
+    height: auto;
+    
+}
+
+.arrow1{
+   
+   position: absolute;
+   top: -13vw;
+   left: 1vw;
+   width: 40vw;
+   
+    
+    
+}
+.arrow2{
+  
+    
+    position: absolute;
+    top: 5vw;
+    left: 80vw;
+    width: 39vw;
+}
+.arrow3{
+   
+    position: absolute;
+    top: 37vw;
+    left: 1vw;
+    width: 39vw;
+}
+
+.line1 {
+  
+   
+      
+    height: 12vw;
+    width: 0.4vw;
+    background-image: repeating-linear-gradient(0deg, transparent, #2690FF, #ffffff);
+    
+    position: absolute;
+    top: -6vw;
+    left: 17.4vw;
+    transform: rotate(-70deg);
+    transform-origin: left;
+
+    background-size: 200% 200%; /* Увеличиваем размер градиента */
+    animation: gradient-animation 1.5s ease infinite; /* Анимация */
+  }
+  @keyframes gradient-animation {
+    0% { background-position: 0%; }
+    100% { background-position: 0% 300%; }
+  }
+.line2{
+    
+    height: 11vw;
+    width: 0.4vw;
+    background-image: linear-gradient(0deg, transparent, #2690FF, #ffffff);
+    transform:rotate(-70deg);
+    position: absolute;
+    top: -6.8vw;
+    left: 10vw;
+    transform-origin: left;
+
+    background-size: 200% 200%; /* Увеличиваем размер градиента */
+    animation: gradient-animation2 1.5s ease infinite; /* Анимация */
+  }
+  @keyframes gradient-animation2 {
+    0% { background-position:  0%; }
+    100% { background-position: 0% -300%}
+  }
+
+
+
+
+.line3{
+  
+    height: 39vw;
+    width: 0.4vw;
+    background-image: linear-gradient(0deg, transparent, #2690FF, #ffffff);
+    transform:rotate(-70deg);
+    position: absolute;
+    top: -1vw;
+    left: 80vw;
+    transform-origin: left;
+
+    background-size: 200% 200%; /* Увеличиваем размер градиента */
+    animation: gradient-animation2 1.5s ease infinite; /* Анимация */
+  }
+  @keyframes gradient-animation2 {
+    0% { background-position:  0%; }
+    100% { background-position: 0% 300%; }
+  }
+    
+
+
+.line4{
+    
+    height: 39vw;
+    width: 0.4vw;
+    background-image: repeating-linear-gradient(0deg, transparent, #2690FF, #ffffff);
+    transform:rotate(-70deg);
+    position: absolute;
+    top: -6vw;
+    left: 62vw;
+    transform-origin: left;
+
+    background-size: 200% 200%; /* Увеличиваем размер градиента */
+    animation: gradient-animation2 1.5s ease infinite; /* Анимация */
+  }
+  @keyframes gradient-animation2 {
+    0% { background-position:  0%; }
+    100% { background-position: 0% 300%; }
+  }
+
+  .vertline{
+    
+ 
+    height: 7vw;
+    width: 0.35vw;
+    background-image: repeating-linear-gradient(0deg, transparent 1vw, #2690FF, #ffffff);
+    position: absolute;
+    top: 29vw;
+    left: 45.62vw;
+    transform-origin: left;
+
+    background-size: 200% 200%; /* Увеличиваем размер градиента */
+    animation: gradient-animation2 1.5s ease infinite; /* Анимация */
+  }
+  @keyframes gradient-animation2 {
+    0% { background-position:  0%; }
+    100% { background-position: 0% 300%; }
+  }
+.beta{
+    margin-top: 2vw;
+    font-family: arial;
+    font-size: 13.5vw;
+    position: absolute;
+    left: 18vw;
+    top: 7.4vw;
+
+}
+.potok{
+
+    font-family: arial;
+    font-size: 13.5vw;
+}
+.k{
+    font-family: arial;
+    font-size: 13.5vw;
+    margin-left: -2vw;
+}
+
+.spark{
+    width: 14vw;
+    height: 13vw;
+    margin-top: 1vw;
+    margin-left: -2.2vw;
+    background: url(./img/Frame\ 57.svg);
+    background-size: 14vw 26vw;
+    display: block;
+    position: relative;
+    animation: spark 1s steps(2) infinite;
+}
+@keyframes spark{
+    0% { background-position: 0% 0%; }
+    100% { background-position: 0% 202%; }
+}
+
+.title{
+    position: absolute;
+    display:flex;
+    flex-direction: row;
+    top: 20.4vw;
+    left: 33.2vw;
+    
+}
+
+
+
+    
+
+
+.track{
+    font-family: arial;
+    font-size: 2.5vw;
+    position: absolute;
+    left: 69vw;
+    top: 33.5vw;
+
+}
+.line5{
+    width: 0.4vw;
+    height: 35vw;
+    transform:rotate(-70deg);
+    background-image: repeating-linear-gradient(0deg, transparent, #2690FF, #ffffff);
+    position: absolute;
+    left: 13vw;
+    top: 14.5vw;
+    transform-origin: left;
+
+    background-size: 500% 500%; /* Увеличиваем размер градиента */
+    animation: gradient-animation2 1.5s ease infinite; /* Анимация */
+  }
+  @keyframes gradient-animation2 {
+    0% { background-position:  0%; }
+    100% { background-position: 0% 600%; }
+  }
+
+
+.line6{
+    width: 0.4vw;
+    height: 35vw;
+    transform:rotate(-70deg);
+    background-image: repeating-linear-gradient(0deg, transparent, #ffffff, #2690FF);
+    position: absolute;
+    left: -4vw;
+    top: 7vw;
+    transform-origin: left;
+
+    background-size: 300% 300%; /* Увеличиваем размер градиента */
+    animation: gradient-animation2 1.5s ease infinite; /* Анимация */
+  }
+  @keyframes gradient-animation2 {
+    0% { background-position:  0%; }
+    100% { background-position: 0% 400%; }
+  }
+
+.line7{
+    width: 0.4vw;
+    height: 35vw;
+    transform:rotate(-70deg);
+    background-image: repeating-linear-gradient(0deg, transparent, #ffffff, #2690FF);
+    position: absolute;
+    left: 62vw;
+    top: 24.5vw;
+    transform-origin: left;
+
+    background-size: 200% 200%; /* Увеличиваем размер градиента */
+    animation: gradient-animation2 1.5s ease infinite; /* Анимация */
+  }
+  @keyframes gradient-animation2 {
+    0% { background-position:  0%; }
+    100% { background-position: 0% 300%; }
+  }
+
+
+.line8{
+    width: 0.4vw;
+    height: 35vw;
+    transform:rotate(-70deg);
+    background-image: repeating-linear-gradient(0deg, transparent, #2690FF, #ffffff);
+    position: absolute;
+    left: 67vw;
+    top: 28.3vw;
+transform-origin: left;
+
+background-size: 200% 200%; /* Увеличиваем размер градиента */
+animation: gradient-animation2 1.5s ease infinite; /* Анимация */
+}
+@keyframes gradient-animation2 {
+0% { background-position:  0%; }
+100% { background-position: 0% 300%; }
+}
+.linerun{
+    background-color: black;
+    width: 100vw;
+overflow-x: hidden;
+    height: 4vw;
+    position: absolute;
+    top: 50vw;
+    display: flex;
+   
+ 
+}
+  
+.text{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.59vw;
+    width: 300vw;
+    
+   white-space: nowrap;
+   transform: translateX(100%);
+   animation: run 30s linear infinite;
+   
+}
+
+
+@keyframes run{
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+
+} 
+
+
+
+
+
+.nov{
+    color: white;
+    font-family: arial;
+    font-size: 2.5vw;
+    white-space: nowrap;
+    margin-left: 2vw;
+    width: 50vw;
+
+}
+.release{
+    color: white;
+    font-family: arial;
+    font-size: 2.5vw;
+    margin-left: 2vw;
+    width: 50vw;
+    white-space: nowrap;
+    
+}
+.blue{
+    width: 6vw;
+    height: 2vw;
+   
+    margin-top: 0.1vw;
+    margin-left: 2vw;
+
+}
+
+
+.disk1{
+position: absolute;
+left: 37vw;
+top: 46vw;
+width: 20vw;
+animation: disk1 7s linear infinite;
+}
+@keyframes disk1{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.disk2{
+    position: absolute;
+    left: 17vw;
+    top: 22vw;
+    width: 61vw;
+    animation: disk2 20s linear infinite;
+}
+@keyframes disk2{
+    0% { transform: rotate(360deg); }
+    100% { transform: rotate(0deg); }
+}
+.disk3{
+    position: absolute;
+    left: 12vw;
+    top: 19vw;
+    width: 71vw;
+    animation: disk3 20s linear infinite;
+}
+@keyframes disk3{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+.disk4{
+    position: absolute;
+    left: 8vw;
+    top: 17vw;
+    width: 79vw;
+    animation: disk2 20s linear infinite;
+}
+@keyframes disk2{
+    0% { transform: rotate(360deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.block2{
+    position: relative;
+    top: 58vw;
+    height: 64vw;
+    
+}
+.focus2{
+    font-family: arial;
+    font-size: 26vw;
+    color: #2690FF;
+    position: absolute;
+    left: 15.6vw;
+    top: 13.7vw;
+}
+.cover2, .cover1, .cover3, .cover4{
+   position: absolute;
+}
+.cover2{
+    top: 2vw;
+    left: 6vw;
+    width: 19.8vw;
+    height: 19.8vw;
+}
+.cover1{
+    left: 71vw;
+    top: 4.6vw;
+    width: 20.8vw;
+    height: 20.8vw;
+}
+.cover3{
+    left: 15.5vw;
+    top: 30.4vw;
+    width: 15.8vw;
+    height: 15.6vw
+}
+.cover4{
+    width: 20.3vw;
+    height: 20.3vw;
+    left: 63.5vw;
+    top: 35.5vw;
+}
+.overflow{
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.black1, .black2, .black3, .black4, .black5, .black6, .black7{
+    background-color: black;
+    width: 27.6vw;
+    height: 2.5vw;
+   position: absolute;
+}
+.black1{
+    top: -6vw;
+    left: 13.5vw;
+    animation: black1 5s linear infinite;
+}
+@keyframes black1
+{
+    0% {
+        transform: translateZ(0);
+    }
+    50% {
+        transform: translate(100%);
+    }
+    100%{
+        transform: translate(0%); 
+    }
+}
+
+.black2{
+    top: 12.6vw;
+    left: 26.3vw;
+    width: 29.7vw;
+    animation: black2 5s linear infinite;
+}
+@keyframes black2
+{
+    0% {
+        transform: translate(100%);
+    }
+    50% {
+        transform: translate(0%);
+    }
+    100% {
+        transform: translate(100%)
+    }
+}
+
+.black3{
+    top: 45vw;
+    left: 23vw;
+    width: 29.7vw;
+    animation: black3 5s linear infinite;
+}
+@keyframes black3
+{
+    0% {
+        transform: translate(100%);
+    }
+    50% {
+        transform: translate(0%);
+    }
+    100% {
+        transform: translate(100%);
+    }
+}
+
+.black4{
+    top: 45.4vw;
+    left: 23vw;
+    width: 29.7vw;
+    animation: black4 5s linear infinite;
+}
+@keyframes black4
+{
+    0%{
+        transform: translate(0);
+    }
+    50% {
+        transform: translate(100%);
+    }
+    0%{
+        transform: translate(0%);
+    }
+}
+
+
+.black5{
+    top: -3.7vw;
+    left: 52vw;
+    width: 40vw;
+    animation: black5 5s linear infinite;
+}
+@keyframes black5
+{
+    0%{
+        transform: translate(100%);
+    }
+    50% {
+        transform: translate(0%);
+    }
+    100%{
+        transform: translate(100%);
+    }
+}
+
+
+.black6{
+    top: 4vw;
+    left: 57vw;
+    width: 40vw;
+    animation: black6 5s linear infinite;
+}
+@keyframes black6
+{
+    0%{
+        transform: translate(0%);
+    }
+    50% {
+        transform: translate(100%);
+    }
+    100%{
+        transform: translate(0%);
+    }
+}
+
+.black7{
+    top: 6vw;
+    left: 52vw;
+    width: 40vw;
+    animation: black7 5s linear infinite;
+}
+@keyframes black7
+{
+    0%{
+        transform: translate(100%);
+    }
+    50% {
+        transform: translate(0%);
+    }
+    100%{
+        transform: translate(100%);
+    }
+}
+
+.block3{
+    position: relative;
+   
+    top: 51vw;
+}
+.release3{
+    font-family: arial;
+    font-size: 3.2vw;
+    color:#2690FF;
+    position: absolute;
+    left: 6vw;
+}
+
+
+  .cas{
+    font-family: arial;
+    font-size: 3.2vw;
+    color:#2690FF;
+    position: absolute;
+    left: 5vw;
+    top: 8vw;
+ } 
+ .date{
+    font-family: arial;
+    font-size: 3.2vw;
+    color:#2690FF;
+    position: absolute;
+    top: 8vw;
+    left: 59vw;
+ }
+ .lp{
+   font-family: arial;
+   font-size: 3.2vw;
+    color:#2690FF;
+    position: absolute;
+    top: 16vw;
+    left: 5vw;
+ }
+.date2{
+    font-family: arial;
+    font-size: 3.2vw;
+     color:#2690FF;
+     position: absolute;
+     top: 16vw;
+     left: 59vw;
+}
+.digr{
+    font-family: arial;
+    font-size: 3.2vw;
+     color:#2690FF;
+     position: absolute;
+     top: 24vw;
+     left: 5vw;
+}
+.date3{
+    font-family: arial;
+   font-size: 3.2vw;
+     color:#2690FF;
+     position: absolute;
+     top: 24vw;
+     left: 59vw;
+}
+.block4{
+    position: relative;
+    top: 86vw;
+    
+    height: auto;
+    position: relative;
+    
+}
+
+
+.caset {
+    width: 47vw;
+    height: auto;
+    position: absolute;
+    top: 0vw;
+    left: 14vw;
+    transform: rotate(-11deg);
+}
+
+
+
+.caset2 {
+    width: 47vw;
+    height: auto;
+    position: absolute;
+    top: 10vw;
+    left: 1.5vw;
+   
+}
+.caset3 {
+    width: 47vw;
+    height: auto;
+    position: absolute;
+    top: 16.5vw;
+    left: 4vw;
+}
+
+
+
+
+.caset4 {
+    width: 47vw;
+    height: auto;
+    position: absolute;
+    top: 23vw;
+    left: -5vw;
+}
+
+
+
+.caset5 {
+    width: 47vw;
+    height: auto;
+    position: absolute;
+    left: 51vw;
+    top:  16.5vw;
+}
+
+
+
+.caset6 {
+    width: 47vw;
+    height: auto;
+    position: absolute;
+    top: 23vw;
+    left: 42vw;
+}
+
+
+.caset7 {
+    width: 47vw;
+    height: auto;
+    position: absolute;
+    left: 56vw;
+    top: 3.2vw;
+}
+
+
+.caset8 {
+    width: 47vw;
+    height: auto;
+    position: absolute;
+    left: 48vw;
+    top: 10vw;
+}
+
+.block5{
+    position: absolute;
+    top: 40vw;
+}
+.star{
+    position: absolute;
+    width: 3vw;
+    height: auto;
+    top: 21vw;
+    left: 93vw;
+    animation: star 2s linear infinite;
+}
+
+@keyframes star{
+    0% {
+        transform: scale(100%);
+        transform: rotate(180deg);
+    }
+    25%{
+       
+    }
+    50% {
+        transform: scale(50%);
+        
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: scale(100%);
+        transform: rotate(180deg);
+    }
+}
+
+.star2{
+    position: absolute;
+    width: 3vw;
+    height: auto;
+    top: 50vw;
+    left: 12vw;
+    animation: star2 2s linear infinite;
+}
+@keyframes star2{
+    0% {
+        transform: scale(100%);
+        transform: rotate(-180deg);
+    }
+    25%{
+       
+    }
+    50% {
+        transform: scale(50%);
+        
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: scale(100%);
+        transform: rotate(-180deg);
+    }
+}
+
+.star3{
+    position: absolute;
+    width: 3.3vw;
+    height: auto;
+    top: 76vw;
+    left: 61vw;
+    animation: star3 2s linear infinite;
+}
+@keyframes star3{
+    0% {
+        transform: scale(100%);
+        transform: rotate(180deg);
+    }
+    25%{
+       
+    }
+    50% {
+        transform: scale(50%);
+        
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: scale(100%);
+        transform: rotate(180deg);
+    }
+}
+
+.star4{
+    position: absolute;
+    width: 3vw;
+    height: auto;
+    top: 98vw;
+    left: 49.5vw;
+    animation: star4 2s linear infinite;
+}
+@keyframes star4{
+    0% {
+        transform: scale(100%);
+        transform: rotate(-360deg);
+    }
+    25%{
+       
+    }
+    50% {
+        transform: scale(50%);
+        
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: scale(100%);
+        transform: rotate(-360deg);
+    }
+}
+
+
+.star5{
+    position: absolute;
+    width: 3vw;
+    height: auto;
+    left: 93vw;
+    top: 118vw;
+    animation: star5 2s linear infinite;
+}
+@keyframes star5{
+    0% {
+        transform: scale(100%);
+        transform: rotate(360deg);
+    }
+    25%{
+       
+    }
+    50% {
+        transform: scale(50%);
+        
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: scale(90%);
+        transform: rotate(360deg);
+    }
+}
+
+.star6{
+    position: absolute;
+    width: 3vw;
+    height: auto;
+    left: 30vw;
+    top: 11vw;
+    animation: star6 2s linear infinite;
+}
+@keyframes star6{
+    0% {
+        transform: scale(100%);
+        transform: rotate(200deg);
+    }
+    25%{
+       
+    }
+    50% {
+        transform: scale(50%);
+        
+    }
+    75%{
+        transform: rotate(-90deg);
+    }
+    100% {
+        transform: scale(90%);
+        transform: rotate(-200deg);
+    }
+}
+
+.star7{
+    position: absolute;
+    width: 3vw;
+    height: auto;
+    top: 22.3vw;
+    left: 72vw;
+    animation: star7 2s linear infinite;
+}
+@keyframes star7{
+    0% {
+        transform: scale(100%);
+        transform: rotate(-100deg);
+    }
+    25%{
+       
+    }
+    50% {
+        transform: scale(50%);
+        
+    }
+    75%{
+        transform: rotate(90deg);
+    }
+    100% {
+        transform: scale(90%);
+        transform: rotate(-100deg);
+    }
+}
+
+.writ{
+    position: absolute;
+    left: 31vw;
+    top: 2vw;
+    width: 9.5vw;
+}
+.writ2{
+    position: absolute;
+    left: 39.7vw;
+    top: 35vw;
+    transform:rotate(-27deg);
+    width: 9.5vw;
+}
+.writ3{
+    position: absolute;
+    left: 80vw;
+    top: 45vw;
+    width: 9.5vw;
+}
+.arrow8{
+    position: absolute;
+    top: 18vw;
+    left: 15vw;
+    width: 9.2vw;
+    animation: arrow8 2s linear infinite;
+}
+
+@keyframes arrow8{
+    0% {
+        transform: rotate(20deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(20deg);
+    }
+}
+
+  
+
+
+
+
+@media screen and (min-width: 1921px){
+    .beta{
+        font-size: 254px;
+    }
+    .potok{
+        font-size: 254px;
+    }
+}
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    .beta{
+       
+    }
+    .potok{
+        
+    }
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+    .beta{
+        font-size: px;
+    }
+    .potok{
+        font-size: px;
+
+}
+}
+
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+}
+
+
+@media screen and (max-width: 414px) {
+
+}
+.mario {
+    
+}
+
+@keyframes walk {
+    0% {
+        background-position: 0px 0
+    }
+
+    ;
+
+    25% {
+        background-position: -68px 0
+    }
+
+    ;
+
+    50% {
+        background-position: -136px 0
+    }
+
+    ;
+
+    100% {
+        background-position: -204px 0
+    }
+
+    ;
+}
+
+@keyframes path {
+    0% {
+        left: -68px;
+    }
+
+    25% {
+        top: 150px;
+
+    }
+
+    50% {
+        top: 200px;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+
+
+
